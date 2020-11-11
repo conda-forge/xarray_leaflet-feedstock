@@ -1,5 +1,5 @@
 {% set name = "xarray_leaflet" %}
-{% set version = "0.1.12" %}
+{% set version = "0.1.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9707e2925a7877a48b3ee70ce0399f16d3342fee6a3bd8bf9050737935c64220
+  sha256: 1ea298c8751a5b1b7d507017516e02aac740f5c4b37b092d61a5b75dc99c6065
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.5.0
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - rioxarray >=0.0.30
     - jupyter_server >=0.2.0
     - ipyleaflet >=0.13.1
