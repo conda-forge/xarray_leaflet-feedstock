@@ -1,5 +1,5 @@
 {% set name = "xarray_leaflet" %}
-{% set version = "0.1.14" %}
+{% set version = "0.1.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae45c560cd4664c3217fa4203418037552b1073a0f0bb50528fd9829f219394e
+  sha256: fada676cc397c70a42f83f44f04e1a60cc18e684281ffb680d0646745136d1bc
 
 build:
   noarch: python
