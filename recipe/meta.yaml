@@ -18,10 +18,11 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - hatchling
   run:
     - python >=3.6
     - rioxarray >=0.0.30
-    - jupyter_server >=0.2.0
+    - jupyter_server_xarray_leaflet >=0.2.2
     - ipyleaflet >=0.13.1
     - pillow >=7
     - matplotlib-base >=3
